@@ -31,14 +31,18 @@ const About = () => {
             <div>
               <h3 className="text-xl font-semibold mb-3">1. 경력 사항</h3>
               <ul
-                className="flex flex-col list-disc gap-1"
+                className="flex flex-col list-disc gap-2"
                 style={{ marginLeft: "5%" }}
               >
                 <li className="font-bold">
-                  한국가스공사(인턴) - 설비운영부 (2021.09 ~ 2021.12)
+                  한국가스공사(인턴) - 설비운영부
+                  <br />
+                  (2021.09 ~ 2021.12)
                 </li>
                 <li className="font-bold">
-                  한화솔루션(사원) - 설비안전진단팀 (2022.01 ~ 2023.05)
+                  한화솔루션(사원) - 설비안전진단팀
+                  <br />
+                  (2022.01 ~ 2023.05)
                 </li>
               </ul>
             </div>
@@ -49,7 +53,7 @@ const About = () => {
                 style={{ marginLeft: "5%" }}
               >
                 <li className="font-bold">
-                  삼성 청년 SW 아카데미 10기(SSAFY) (2023.07 ~ 진행중)
+                  삼성 청년 SW 아카데미 10기 (SSAFY) (2023.07 ~ 진행중)
                 </li>
               </ul>
             </div>

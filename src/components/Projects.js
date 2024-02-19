@@ -7,8 +7,8 @@ const Projects = () => {
       <div className="flex flex-wrap justify-center items-stretch gap-8">
         <ProjectItem
           title="수길이네 금융마을"
-          descriptionItems={[
-            "금융 퀴즈/ 카드 뉴스/ 금융 꿀팁을 통해 누구나 즐겁게 금융에 대해 배울수 있는 웹 페이지",
+          description="금융 퀴즈/ 카드 뉴스/ 금융 꿀팁을 통해 누구나 즐겁게 금융에 대해 배울수 있는 웹 페이지"
+          roles={[
             "회원가입, 로그인 등 유저 정보 관리",
             "커뮤니티 게시판 기능",
             "카카오 맵 은행 검색 기능",
@@ -19,8 +19,8 @@ const Projects = () => {
         />
         <ProjectItem
           title="눈 깜빡할 새"
-          descriptionItems={[
-            "WebRTC기술을 활용한 온라인 눈(eye) 싸움 게임",
+          description="WebRTC기술을 활용한 온라인 눈(eye) 싸움 게임"
+          roles={[
             "디자인 (피그마 UI/UX 설계)",
             "회원가입, 로그인 등 유저 정보 관리",
             "Jwt Token 등 유저 권한 관리",
@@ -34,14 +34,17 @@ const Projects = () => {
   );
 };
 
-function ProjectItem({ title, descriptionItems, techStack, link }) {
+function ProjectItem({ title, description, roles, techStack, link }) {
   return (
     <div className="max-w-md w-full bg-white shadow-lg rounded-lg overflow-hidden">
       <div className="p-5">
         <h3 className="text-xl font-semibold mb-3">{title}</h3>
         <div className="text-gray-800">
           <p className="font-medium mb-2">개요:</p>
-          {descriptionItems.map((item, index) => (
+          <p className="ml-4">· {description}</p>
+
+          <p className="font-medium mt-4 mb-2">역할:</p>
+          {roles.map((item, index) => (
             <p key={index} className="ml-4 mb-1">
               · {item}
             </p>
