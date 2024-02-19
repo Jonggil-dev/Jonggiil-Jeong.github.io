@@ -1,11 +1,11 @@
 import React from "react";
 
-function Header() {
+const Header = () => {
   return (
-    <header className="bg-green-500 text-white fixed top-0 w-full z-10 hidden sm:block">
+    <header className="bg-green-500 text-white fixed top-0 w-full z-10 max-w-[1024px] min-w-[1024px]">
       <nav className="flex items-center p-4 h-12">
-        <span className="font-bold text-xl">Jeong Jonggil</span>
-        <div className="text-sm flex ml-4">
+        <span className="font-bold text-xl flex-shrink-0">Jeong Jonggil</span>
+        <div className="text-sm flex ml-4 flex-shrink-0">
           <a href="#Home" className="block text-white hover:text-gray-300 p-2">
             Home
           </a>
@@ -28,6 +28,6 @@ function Header() {
       </nav>
     </header>
   );
-}
+};
 
 export default Header;

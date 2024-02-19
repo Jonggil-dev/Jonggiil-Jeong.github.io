@@ -5,19 +5,18 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import BrowserLayout from "./layouts/BrowserLayout";
 
 function App() {
   return (
-    <div className="font-sans bg-gray-50">
+    <BrowserLayout>
       <Header />
-      <main className="pb-8">
-        <Intro />
-        <About />
-        <Skills />
-        <Projects />
-      </main>
+      <Intro />
+      <About />
+      <Skills />
+      <Projects />
       <Footer />
-    </div>
+    </BrowserLayout>
   );
 }
 

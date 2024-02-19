@@ -1,10 +1,10 @@
 import React from "react";
 
-function Projects() {
+const Projects = () => {
   return (
-    <section id="project" className="pt-16 mb-4 mx-4">
-      <h2 className="text-2xl font-bold mb-4">Project</h2>
-      <div className="flex flex-wrap border-4 p-4 justify-center items-stretch gap-4">
+    <section id="project" className="pt-20 pb-8 mx-4">
+      <h2 className="text-3xl font-bold mb-8">Projects</h2>
+      <div className="flex flex-wrap justify-center items-stretch gap-8">
         <ProjectItem
           title="수길이네 금융마을"
           descriptionItems={[
@@ -27,40 +27,36 @@ function Projects() {
             "WebSocket을 통한 실시간 통신",
           ]}
           techStack="Node.js(Frontend), React(Frontend), Spring Boot(Backend), OpenVidu(WebRTC), MySql(DB), Redis(DB), AWS(Server), Docker(Server)"
-          link="123123"
+          link="https://github.com/Jonggil-dev/Staring-Contest"
         />
       </div>
     </section>
   );
-}
+};
 
 function ProjectItem({ title, descriptionItems, techStack, link }) {
   return (
-    <div className="max-w-md w-full bg-white shadow-lg rounded-lg overflow-hidden m-4">
-      <div className="p-4">
-        <h3 className="text-xl font-semibold mb-4">{title}</h3>
-        <div className="flex flex-col gap-3">
-          <div>
-            <p className="font-bold">ㆍ 개요</p>
-            {descriptionItems.map((item, index) => (
-              <p key={index} className="ml-2">
-                - {item}
-              </p>
-            ))}
-          </div>
-          <div>
-            <p className="font-bold">ㆍ 기술스택</p>
-            <p className="ml-2">- {techStack}</p>
-          </div>
-          <div>
-            <p className="font-bold">ㆍ 링크</p>
-            <a
-              className="ml-2 text-blue-500 hover:text-blue-700 underline"
-              href={link}
-            >
-              - {link}
-            </a>
-          </div>
+    <div className="max-w-md w-full bg-white shadow-lg rounded-lg overflow-hidden">
+      <div className="p-5">
+        <h3 className="text-xl font-semibold mb-3">{title}</h3>
+        <div className="text-gray-800">
+          <p className="font-medium mb-2">개요:</p>
+          {descriptionItems.map((item, index) => (
+            <p key={index} className="ml-4 mb-1">
+              · {item}
+            </p>
+          ))}
+
+          <p className="font-medium mt-4 mb-2">기술스택:</p>
+          <p className="ml-4">· {techStack}</p>
+
+          <p className="font-medium mt-4 mb-2">링크:</p>
+          <a
+            href={link}
+            className="ml-4 text-blue-500 hover:text-blue-600 underline"
+          >
+            프로젝트 보러가기
+          </a>
         </div>
       </div>
     </div>
