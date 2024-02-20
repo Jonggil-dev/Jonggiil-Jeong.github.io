@@ -25,14 +25,14 @@ const Intro = () => {
       id="Home"
       className="pt-[50px] bg-[#cba36f] h-[400px] flex flex-col items-center justify-center"
     >
-      <div className="text-center">
+      <upper className="text-center introUpper">
         <p className="text-4xl font-extrabold text-white mb-2">- 정종길 -</p>
         <p className="text-5xl font-extrabold text-white">
           웹 개발자 포트폴리오
         </p>
-      </div>
+      </upper>
 
-      <div className="text-center font-semibold mt-8">
+      <lower className="text-center font-semibold mt-8 introLower">
         <h1 className="text-xl">
           <TypingText
             text="안 녕하세요, 도전 정신과 포기하지 않는 끈기로"
@@ -54,7 +54,7 @@ const Intro = () => {
             delay={4000}
           />
         </p>
-      </div>
+      </lower>
     </section>
   );
 };

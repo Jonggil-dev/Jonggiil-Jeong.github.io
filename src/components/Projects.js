@@ -38,24 +38,24 @@ const Projects = () => {
 
 function ProjectItem({ title, description, roles, techStack, link }) {
   return (
-    <div className="max-w-md w-full bg-white shadow-lg rounded-lg overflow-hidden">
+    <div className="max-w-md w-full bg-white shadow-lg rounded-lg transition duration-300 ease-in-out hover:scale-105 hover:shadow-xln">
       <div className="p-5">
         <h3 className="text-xl font-semibold mb-3">{title}</h3>
-        <div className="text-gray-800">
-          <p className="font-medium mb-2">개요:</p>
+        <div className="text-gray-800 ms-4">
+          <p className="font-medium mb-2">1. 개요:</p>
           <p className="ml-4">· {description}</p>
 
-          <p className="font-medium mt-4 mb-2">역할:</p>
+          <p className="font-medium mt-4 mb-2">2. 역할:</p>
           {roles.map((item, index) => (
             <p key={index} className="ml-4 mb-1">
               · {item}
             </p>
           ))}
 
-          <p className="font-medium mt-4 mb-2">기술스택:</p>
+          <p className="font-medium mt-4 mb-2">3. 기술스택:</p>
           <p className="ml-4">· {techStack}</p>
 
-          <p className="font-medium mt-4 mb-2">링크:</p>
+          <p className="font-medium mt-4 mb-2">4. 링크:</p>
           <a
             href={link}
             className="ml-4 text-blue-500 hover:text-blue-600 underline"

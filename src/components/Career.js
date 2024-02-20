@@ -13,7 +13,7 @@ function Career() {
         </h2>
         <div className="grid grid-cols-2 gap-8">
           <div className="space-y-6">
-            <div className="bg-white shadow-lg rounded-lg p-6">
+            <div className="bg-white shadow-lg rounded-lg p-6 transition duration-300 ease-in-out hover:scale-105 hover:shadow-xln">
               <div className="flex items-center mb-4">
                 <img src={CareerIcon} alt="Career" className="w-10 h-10" />
                 <h3 className="text-2xl font-semibold ml-4">경력 사항</h3>
@@ -25,7 +25,7 @@ function Career() {
                       <img
                         src={KogasLogo}
                         alt="Kogas Logo"
-                        className="w-12 h-12 mr-4"
+                        className="w-15 h-12 mr-1"
                       />
                       <div>
                         <h4 className="font-extrabold">한국가스공사</h4>
@@ -34,9 +34,11 @@ function Career() {
                     </div>
                     <div className="ml-16">
                       <ul className="list-disc text-sm text-gray-500">
-                        <li> 직무: 설비운영 (인턴)</li>
-                        <li> </li>
-                        <li>업무 내용 2</li>
+                        <li> 직무: 설비운영부 (인턴)</li>
+                        <li> 업무 내용 </li>
+                        <ul className="ms-3 list-disc text-sm text-gray-500">
+                          <li> 설비 유지보수관련 공무 및 서무 업무</li>
+                        </ul>
                       </ul>
                     </div>
                   </div>
@@ -56,8 +58,13 @@ function Career() {
                     <div className="ml-16">
                       <ul className="list-disc text-sm text-gray-500">
                         <li> 직무: 생산지원 (기계/장치)</li>
-                        <li> 공장 내 설비 건전성 평가</li>
-                        <li>업무 내용 2</li>
+                        <li> 업무 내용 </li>
+                        <ul className="ms-3 list-disc text-sm text-gray-500">
+                          <li> 설비 검사 계획 수립 및 건전성 평가</li>
+                          <li> 위험도기반검사(RBI) 시스템 도입</li>
+                          <li> 노후 설비 자산화 교체 공사</li>
+                          <li> 팀 내 안전보건환경 업무 담당</li>
+                        </ul>
                       </ul>
                     </div>
                   </div>
@@ -67,7 +74,7 @@ function Career() {
           </div>
 
           <div className="space-y-6">
-            <div className="bg-white shadow-lg rounded-lg p-6">
+            <div className="bg-white shadow-lg rounded-lg p-6 transition duration-300 ease-in-out hover:scale-105 hover:shadow-xln">
               <div className="flex items-center mb-4">
                 <img
                   src={EducationIcon}

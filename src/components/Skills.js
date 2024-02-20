@@ -6,7 +6,7 @@ const Skills = () => {
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-10">SKILLS</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center space-y-4">
+          <div className="bg-white shadow-lg p-6 flex flex-col items-center space-y-4 rounded-lg transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
             <h3 className="text-2xl font-semibold p-3 border-b-4 border-gray-400 mb-4">
               Languages
             </h3>
@@ -27,7 +27,7 @@ const Skills = () => {
             />
           </div>
 
-          <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center space-y-4">
+          <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center space-y-4 transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
             <h3 className="text-2xl font-semibold p-3 border-b-4 border-gray-400 mb-4">
               Frameworks
             </h3>
@@ -48,7 +48,7 @@ const Skills = () => {
             />
           </div>
 
-          <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center space-y-4">
+          <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center space-y-4 transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
             <h3 className="text-2xl font-semibold p-3 border-b-4 border-gray-400 mb-4">
               Collaboration Tools
             </h3>
