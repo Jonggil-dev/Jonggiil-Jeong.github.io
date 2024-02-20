@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab13766a.css",
-    "main.js": "/static/js/main.91c06284.js",
+    "main.css": "/static/css/main.ff021122.css",
+    "main.js": "/static/js/main.4ce797b1.js",
     "static/js/453.d828a50f.chunk.js": "/static/js/453.d828a50f.chunk.js",
-    "static/media/selfImage.jpg": "/static/media/selfImage.be054ba00855ee386010.jpg",
-    "static/media/IntroBackground1.webp": "/static/media/IntroBackground1.b72540a229e43a2eeb0f.webp",
+    "static/media/KBOLight.ttf": "/static/media/KBOLight.9d3561f0c5d9a61ef1df.ttf",
+    "static/media/SelfImage.jpg": "/static/media/SelfImage.be054ba00855ee386010.jpg",
     "static/media/EducationIcon.png": "/static/media/EducationIcon.bd8389a7775ab6e74749.png",
     "static/media/KogasLogo.jpg": "/static/media/KogasLogo.c32253dba3c0f5484dc8.jpg",
     "static/media/HanwhaLogo.PNG": "/static/media/HanwhaLogo.7d82cb3de38aa29274e5.PNG",
     "index.html": "/index.html",
-    "main.ab13766a.css.map": "/static/css/main.ab13766a.css.map",
-    "main.91c06284.js.map": "/static/js/main.91c06284.js.map",
+    "main.ff021122.css.map": "/static/css/main.ff021122.css.map",
+    "main.4ce797b1.js.map": "/static/js/main.4ce797b1.js.map",
     "453.d828a50f.chunk.js.map": "/static/js/453.d828a50f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab13766a.css",
-    "static/js/main.91c06284.js"
+    "static/css/main.ff021122.css",
+    "static/js/main.4ce797b1.js"
   ]
 }
