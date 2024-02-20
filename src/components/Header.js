@@ -12,12 +12,7 @@ const Header = () => {
           <a href="#about" className="block text-white hover:text-gray-300 p-2">
             About
           </a>
-          <a
-            href="#career"
-            className="block text-white hover:text-gray-300 p-2"
-          >
-            Career
-          </a>
+
           <a
             href="#skills"
             className="block text-white hover:text-gray-300 p-2"
@@ -29,6 +24,12 @@ const Header = () => {
             className="block text-white hover:text-gray-300 p-2"
           >
             Project
+          </a>
+          <a
+            href="#career"
+            className="block text-white hover:text-gray-300 p-2"
+          >
+            Career
           </a>
         </div>
       </nav>

@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "KBOFont1";
+  src: url("./assets/fonts/KBOLight.ttf") format("truetype"); /* 폰트 파일의 위치와 형식을 지정합니다. */
+}
+
+/*
+@font-face {
+  font-family: "KBOFont2";
+  src: url("./assets/fonts/KBOMedium.ttf") format("truetype"); 
+}
+
+@font-face {
+  font-family: "KBOFont3";
+  src: url("./assets/fonts/KBOBold.ttf") format("truetype");
+}
+*/
+section {
+  font-family: "KBOFont1";
+}

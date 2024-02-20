@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import IntroBackground1 from "../assets/IntroBackground1.webp";
-// import IntroBackground2 from "../assets/IntroBackground2.webp";
 
 const TypingText = ({ text, speed, delay }) => {
   const [displayedText, setDisplayedText] = useState("");
@@ -25,38 +23,38 @@ const Intro = () => {
   return (
     <section
       id="Home"
-      className="pt-[80px] h-[500px]"
-      style={{
-        background: `url(${IntroBackground1}) no-repeat center center`,
-        backgroundSize: "100% 700px",
-      }}
+      className="pt-[50px] bg-[#cba36f] h-[400px] flex flex-col items-center justify-center"
     >
-      <upper className="flex flex-col items-center">
-        <p className="text-3xl font-extrabold text-[#0a0a0a]">- 정종길 -</p>
-        <p className="text-4xl font-extrabold text-[#0a0a0a]">
+      <div className="text-center">
+        <p className="text-4xl font-extrabold text-white mb-2">- 정종길 -</p>
+        <p className="text-5xl font-extrabold text-white">
           웹 개발자 포트폴리오
         </p>
-      </upper>
+      </div>
 
-      <lower className="flex flex-col font-semibold justify-center items-center mt-5">
-        <h1>
-          <TypingText text="안 녕하세요," speed={100} delay={0} />
-        </h1>
-        <p>
+      <div className="text-center font-semibold mt-8">
+        <h1 className="text-xl">
           <TypingText
-            text="아 이디어를 구현하는 프로그래밍의 매력에 빠져"
-            speed={50}
+            text="안 녕하세요, 도전 정신과 포기하지 않는 끈기로"
+            speed={70}
+            delay={0}
+          />
+        </h1>
+        <p className="text-xl mt-2">
+          <TypingText
+            text="어 제보다 더 발전한 오늘을 보여주는 웹 개발자입니다"
+            speed={70}
             delay={2000}
           />
         </p>
-        <p>
+        <p className="text-xl mt-2">
           <TypingText
-            text="개 발자라는 새로운 도전을 시작하고 있습니다."
-            speed={50}
-            delay={3500}
+            text="나 아가, 어제보다 더 나은 서비스를 끊임없이 탐구하는 개발자가 되겠습니다."
+            speed={70}
+            delay={4000}
           />
         </p>
-      </lower>
+      </div>
     </section>
   );
 };

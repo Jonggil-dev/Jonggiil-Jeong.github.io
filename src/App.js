@@ -14,9 +14,9 @@ function App() {
       <Header />
       <Intro />
       <About />
-      <Career />
       <Skills />
       <Projects />
+      <Career />
       <Footer />
     </BrowserLayout>
   );

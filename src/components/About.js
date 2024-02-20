@@ -1,17 +1,17 @@
 import React from "react";
-import selfImage from "../assets/selfImage.jpg";
+import SelfImage from "../assets/images/SelfImage.jpg";
 
 function About() {
   return (
     <section
       id="about"
-      className="pt-16 flex flex-col items-center justify-center"
+      className="p-12 flex flex-col items-center justify-center"
     >
       <h2 className="text-4xl font-bold mb-4">ABOUT</h2>
-      <div className="flex border-4 divide-gray-400 justify-center items-center p-10 w-full">
+      <div className="flex border-4 divide-gray-400 justify-center items-center p-10 w-[700px]">
         <img
           className="w-48 h-48 rounded-full"
-          src={selfImage}
+          src={SelfImage}
           alt="self_image"
         />
         <ul
