@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import IntroBackground1 from "../assets/IntroBackground1.webp";
+// import IntroBackground2 from "../assets/IntroBackground2.webp";
 
 const TypingText = ({ text, speed, delay }) => {
   const [displayedText, setDisplayedText] = useState("");
@@ -21,31 +23,40 @@ const TypingText = ({ text, speed, delay }) => {
 
 const Intro = () => {
   return (
-    <section id="Home" className="pt-16 mx-4">
-      <h2 className="text-2xl font-bold mb-4">Intro</h2>
-      <div>
-        <h1 className="text-3xl font-bold mb-2 text-center">
-          <TypingText
-            text="안 녕하세요, 개발자 정종길입니다."
-            speed={100}
-            delay={0}
-          />
+    <section
+      id="Home"
+      className="pt-[80px] h-[500px]"
+      style={{
+        background: `url(${IntroBackground1}) no-repeat center center`,
+        backgroundSize: "100% 700px",
+      }}
+    >
+      <upper className="flex flex-col items-center">
+        <p className="text-3xl font-extrabold text-[#0a0a0a]">- 정종길 -</p>
+        <p className="text-4xl font-extrabold text-[#0a0a0a]">
+          웹 개발자 포트폴리오
+        </p>
+      </upper>
+
+      <lower className="flex flex-col font-semibold justify-center items-center mt-5">
+        <h1>
+          <TypingText text="안 녕하세요," speed={100} delay={0} />
         </h1>
-        <p className="text-center">
+        <p>
           <TypingText
             text="아 이디어를 구현하는 프로그래밍의 매력에 빠져"
             speed={50}
             delay={2000}
           />
         </p>
-        <p className="text-center">
+        <p>
           <TypingText
             text="개 발자라는 새로운 도전을 시작하고 있습니다."
             speed={50}
             delay={3500}
           />
         </p>
-      </div>
+      </lower>
     </section>
   );
 };
