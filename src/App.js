@@ -4,7 +4,7 @@ import Intro from "./components/Intro";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 import BrowserLayout from "./layouts/BrowserLayout";
 import Career from "./components/Career";
 
@@ -17,7 +17,7 @@ function App() {
       <Skills />
       <Projects />
       <Career />
-      <Footer />
+      <Contact />
     </BrowserLayout>
   );
 }

@@ -4,12 +4,13 @@ import EducationIcon from "../assets/images/EducationIcon.png";
 import KogasLogo from "../assets/images/KogasLogo.jpg";
 import HanwhaLogo from "../assets/images/HanwhaLogo.PNG";
 import SSAFYLogo from "../assets/images/SSAFYLogo.jpg";
-function Career() {
+
+const Career = () => {
   return (
     <section id="career" className="p-12 bg-[#cba36f]">
       <div className="max-w-5xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-10">
-          CAREERS & EDUCATIONS
+          CAREER & EDUCATION
         </h2>
         <div className="grid grid-cols-2 gap-8">
           <div className="space-y-6">
@@ -102,7 +103,7 @@ function Career() {
                     </div>
                     <ul className="list-disc ml-20 text-sm text-gray-500">
                       <li>알고리즘(Python) 학습 및 코딩 테스트 준비</li>
-                      <li>웹 개발 기술(Django, Vue) 심화 학습</li>
+                      <li>웹 개발 기술(Django, Vue) 학습</li>
                       <li>팀 프로젝트를 통한 협업 및 문제 해결 경험</li>
                     </ul>
                   </div>
@@ -114,6 +115,6 @@ function Career() {
       </div>
     </section>
   );
-}
+};
 
 export default Career;

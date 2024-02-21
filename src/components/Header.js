@@ -5,7 +5,7 @@ const Header = () => {
     <header className="text-white fixed top-0 w-full z-10 min-w-[1024px]">
       <nav className="bg-[#656667] flex items-center justify-around p-4 h-12">
         <span className="font-bold text-2xl">Jeong Jonggil</span>
-        <div className="text-xl flex ml-4">
+        <div className="text-xl flex ml-4 gap-3">
           <a href="#Home" className="block text-white hover:text-gray-300 p-2">
             Home
           </a>
@@ -30,6 +30,12 @@ const Header = () => {
             className="block text-white hover:text-gray-300 p-2"
           >
             Career
+          </a>
+          <a
+            href="#contact"
+            className="block text-white hover:text-gray-300 p-2"
+          >
+            Contact
           </a>
         </div>
       </nav>
