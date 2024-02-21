@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca11f666.css",
-    "main.js": "/static/js/main.51a2c5fc.js",
+    "main.css": "/static/css/main.2cf8840b.css",
+    "main.js": "/static/js/main.c25aa1b1.js",
     "static/js/453.d828a50f.chunk.js": "/static/js/453.d828a50f.chunk.js",
     "static/media/KBOBold.ttf": "/static/media/KBOBold.013c304ec52950f022e5.ttf",
     "static/media/KBOMedium.ttf": "/static/media/KBOMedium.86277cf8b7effb3dd1b1.ttf",
@@ -9,14 +9,17 @@
     "static/media/SelfImage.jpg": "/static/media/SelfImage.be054ba00855ee386010.jpg",
     "static/media/EducationIcon.png": "/static/media/EducationIcon.bd8389a7775ab6e74749.png",
     "static/media/KogasLogo.jpg": "/static/media/KogasLogo.c32253dba3c0f5484dc8.jpg",
+    "static/media/CallIcon.png": "/static/media/CallIcon.26d304bc959fbc3d6873.png",
+    "static/media/GitHubIcon.png": "/static/media/GitHubIcon.44eee0c4a6c25b0d7347.png",
+    "static/media/EmailIcon.png": "/static/media/EmailIcon.67bda94140af311d041f.png",
     "static/media/HanwhaLogo.PNG": "/static/media/HanwhaLogo.7d82cb3de38aa29274e5.PNG",
     "index.html": "/index.html",
-    "main.ca11f666.css.map": "/static/css/main.ca11f666.css.map",
-    "main.51a2c5fc.js.map": "/static/js/main.51a2c5fc.js.map",
+    "main.2cf8840b.css.map": "/static/css/main.2cf8840b.css.map",
+    "main.c25aa1b1.js.map": "/static/js/main.c25aa1b1.js.map",
     "453.d828a50f.chunk.js.map": "/static/js/453.d828a50f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca11f666.css",
-    "static/js/main.51a2c5fc.js"
+    "static/css/main.2cf8840b.css",
+    "static/js/main.c25aa1b1.js"
   ]
 }
