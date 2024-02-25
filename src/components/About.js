@@ -10,7 +10,7 @@ function About() {
       <h2 className="text-4xl font-bold mb-4">ABOUT</h2>
       <div className="flex border-4 divide-gray-400 justify-center items-center p-10 w-[700px]">
         <img
-          className="w-48 h-48 rounded-full"
+          className="w-48 h-60 rounded-full"
           src={SelfImage}
           alt="self_image"
         />
