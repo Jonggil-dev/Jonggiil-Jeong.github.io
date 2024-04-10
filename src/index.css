@@ -33,6 +33,14 @@ section > .introLower {
   font-family: "KBOFont2";
 }
 
+section h1 {
+  font-family: "KBOFont3";
+}
+
 section h2 {
+  font-family: "KBOFont3";
+}
+
+section > div > div > p {
   font-family: "KBOFont3";
 }
