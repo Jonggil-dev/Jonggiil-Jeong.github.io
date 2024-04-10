@@ -42,7 +42,7 @@ const Intro = () => {
         </h1>
         <p className="text-xl mt-2">
           <TypingText
-            text="어 제보다 더 발전한 오늘을 보여주는 웹 개발자입니다"
+            text="어 제보다 더 발전한 오늘을 보여주는 웹 개발자입니다."
             speed={70}
             delay={2000}
           />
