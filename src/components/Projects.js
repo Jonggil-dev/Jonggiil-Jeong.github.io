@@ -18,8 +18,8 @@ const Projects = () => {
                 title: "CI/CD Pipeline 구축을 통한 자동화 배포",
                 description: `Jenkins CI/CD 파이프라인을 통해 코드 커밋이 발생할 때마다 성공적으로 이루어진 빌드만을 프로덕션 서버에 배포했습니다.
                 EC2 인스턴스 내에서 Nginx를 리버스 프록시로 사용하고 Docker Container를 활용해 EC2내 각 서버들을 연결했습니다.
-                민감 데이터의 경우 env 파일로 Jenkins의 Credential 저장소에서 관리하고  빌드 직전에 프로젝트로 주입함으로써 보안을 강화했습니다
-                Docker 이미지의 경우 멀티 스테이지 빌드를 적용하여 불필요한 의존성과 파일을 제거하여 배포 효율성을 극대화했습니다.
+                민감 데이터의 경우 env 파일로 Jenkins의 Credential 저장소에서 관리하고 빌드 직전에 프로젝트로 주입하여 보안을 강화했습니다.
+                Docker 이미지는 멀티 스테이지 빌드를 사용해 불필요한 의존성과 파일을 제거하였고 배포 효율성을 극대화했습니다.
                 Flutter의 APK 파일의 경우, Nginx를 통해 사용자가 특정 URL로 요청 시 최신 버전을 서빙되도록 설정했습니다.
                 또한, 개발자가 APK의 버전 관리를 할 수 있도록 별도로 볼륨 마운트 폴더를 생성했습니다`,
               },
@@ -59,24 +59,20 @@ const Projects = () => {
             roles={[
               {
                 title: "디자인 (피그마 UI/UX 설계)",
-                description:
-                  "피그마를 사용하여 사용자 친화적인 UI/UX를 설계하고 프로토타이핑을 수행했습니다.",
+                description: "",
               },
               {
                 title: "React Context API를 통한 유저 정보 관리",
-                description:
-                  "Context API를 활용하여 애플리케이션의 상태 관리를 단순화하고, 유저 정보를 전역적으로 관리했습니다.",
+                description: "",
               },
               {
                 title:
                   "Axios Interceptor를 활용한 인증/인가 요청(Jwt 토큰 관리)",
-                description:
-                  "Axios Interceptor를 통해 요청 및 응답을 중간에 가로채어 JWT 토큰을 효과적으로 관리하였습니다.",
+                description: "",
               },
               {
                 title: "WebSocket을 통한 실시간 통신 구현",
-                description:
-                  "WebSocket 프로토콜을 활용하여 실시간 게임 플레이와 통신이 가능하도록 구현했습니다.",
+                description: "",
               },
             ]}
             techStack={[
