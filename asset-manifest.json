@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7376441.css",
-    "main.js": "/static/js/main.95762bc8.js",
+    "main.css": "/static/css/main.1f613144.css",
+    "main.js": "/static/js/main.5226ec1d.js",
     "static/js/453.d828a50f.chunk.js": "/static/js/453.d828a50f.chunk.js",
     "static/media/KBOBold.ttf": "/static/media/KBOBold.013c304ec52950f022e5.ttf",
     "static/media/KBOMedium.ttf": "/static/media/KBOMedium.86277cf8b7effb3dd1b1.ttf",
     "static/media/KBOLight.ttf": "/static/media/KBOLight.9d3561f0c5d9a61ef1df.ttf",
     "static/media/SelfImage.jpg": "/static/media/SelfImage.be054ba00855ee386010.jpg",
+    "static/media/icecream.png": "/static/media/icecream.459c1671e72de34d077a.png",
     "static/media/blink.jpg": "/static/media/blink.c514c672575fb7d12424.jpg",
-    "static/media/simcheongMain.jpg": "/static/media/simcheongMain.d57ca7e112ff0ebe1e6d.jpg",
+    "static/media/simcheongeMain.jpg": "/static/media/simcheongeMain.d57ca7e112ff0ebe1e6d.jpg",
     "static/media/EducationIcon.png": "/static/media/EducationIcon.bd8389a7775ab6e74749.png",
     "static/media/KogasLogo.jpg": "/static/media/KogasLogo.c32253dba3c0f5484dc8.jpg",
     "static/media/CallIcon.png": "/static/media/CallIcon.26d304bc959fbc3d6873.png",
@@ -16,12 +17,12 @@
     "static/media/EmailIcon.png": "/static/media/EmailIcon.67bda94140af311d041f.png",
     "static/media/HanwhaLogo.PNG": "/static/media/HanwhaLogo.7d82cb3de38aa29274e5.PNG",
     "index.html": "/index.html",
-    "main.e7376441.css.map": "/static/css/main.e7376441.css.map",
-    "main.95762bc8.js.map": "/static/js/main.95762bc8.js.map",
+    "main.1f613144.css.map": "/static/css/main.1f613144.css.map",
+    "main.5226ec1d.js.map": "/static/js/main.5226ec1d.js.map",
     "453.d828a50f.chunk.js.map": "/static/js/453.d828a50f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7376441.css",
-    "static/js/main.95762bc8.js"
+    "static/css/main.1f613144.css",
+    "static/js/main.5226ec1d.js"
   ]
 }
