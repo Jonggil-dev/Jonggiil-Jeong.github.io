@@ -80,6 +80,11 @@ const Skills = () => {
               DataBase
             </h3>
             <img
+              src="https://img.shields.io/badge/Postgresql-4169E1?style=for-the-badge&logo=Postgresql&logoColor=white"
+              alt="PostgreSQL Badge"
+              className="h-10"
+            />
+            <img
               src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"
               alt="MySQL Badge"
               className="h-10"
@@ -118,6 +123,11 @@ const Skills = () => {
             <img
               src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=Nginx&logoColor=white"
               alt="Nginx Badge"
+              className="h-10"
+            />
+            <img
+              src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=RabbitMQ&logoColor=white"
+              alt="RabbitMQ Badge"
               className="h-10"
             />
           </div>
