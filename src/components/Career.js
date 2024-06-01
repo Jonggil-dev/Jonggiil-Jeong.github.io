@@ -98,12 +98,19 @@ const Career = () => {
                         <h4 className="font-extrabold">
                           삼성 청년 SW 아카데미 10기
                         </h4>
-                        <p className="text-sm font-bold"> (2023.07 ~ 진행중)</p>
+                        <p className="text-sm font-bold">
+                          {" "}
+                          (2023.07 ~ 2024.06)
+                        </p>
                       </div>
                     </div>
                     <ul className="list-disc ml-20 text-sm text-gray-500">
                       <li>알고리즘(Python) 학습 및 코딩 테스트 준비</li>
                       <li>웹 개발 기술(Django, Vue) 학습</li>
+                      <li>
+                        팀 프로젝트를 통한 서버 개발 기술 학습(Infra, Backend
+                        개발 등)
+                      </li>
                       <li>팀 프로젝트를 통한 협업 및 문제 해결 경험</li>
                     </ul>
                   </div>
