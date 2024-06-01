@@ -8,7 +8,7 @@ const Intro = () => {
     >
       <div className="intro">
         <h1 className="text-4xl font-extrabold text-[#f5f5f5] drop-shadow-lg mb-3 introUpper">
-          "벌써 6시라고?"
+          "벌써 5시라고?"
         </h1>
         <h1 className="text-3xl font-extrabold text-[#f5f5f5] drop-shadow-lg mb-10 introUpper">
           안녕하세요, 엉덩이가 무거운 백엔드 개발자 정종길입니다.
