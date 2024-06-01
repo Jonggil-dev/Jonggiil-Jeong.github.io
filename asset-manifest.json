@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1f613144.css",
-    "main.js": "/static/js/main.1e79c0e0.js",
+    "main.js": "/static/js/main.3142e278.js",
     "static/js/453.d828a50f.chunk.js": "/static/js/453.d828a50f.chunk.js",
     "static/media/KBOBold.ttf": "/static/media/KBOBold.013c304ec52950f022e5.ttf",
     "static/media/KBOMedium.ttf": "/static/media/KBOMedium.86277cf8b7effb3dd1b1.ttf",
@@ -18,11 +18,11 @@
     "static/media/HanwhaLogo.PNG": "/static/media/HanwhaLogo.7d82cb3de38aa29274e5.PNG",
     "index.html": "/index.html",
     "main.1f613144.css.map": "/static/css/main.1f613144.css.map",
-    "main.1e79c0e0.js.map": "/static/js/main.1e79c0e0.js.map",
+    "main.3142e278.js.map": "/static/js/main.3142e278.js.map",
     "453.d828a50f.chunk.js.map": "/static/js/453.d828a50f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f613144.css",
-    "static/js/main.1e79c0e0.js"
+    "static/js/main.3142e278.js"
   ]
 }
