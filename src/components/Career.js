@@ -38,7 +38,7 @@ const Career = () => {
                         <li> 직무: 설비운영부 (인턴)</li>
                         <li> 업무 내용 </li>
                         <ul className="ms-3 list-disc text-sm text-gray-500">
-                          <li> 설비 유지보수관련 공무 및 서무 업무</li>
+                          <li> 설비 유지보수 관련 공무 및 서무 업무</li>
                         </ul>
                       </ul>
                     </div>
@@ -62,9 +62,9 @@ const Career = () => {
                         <li> 업무 내용 </li>
                         <ul className="ms-3 list-disc text-sm text-gray-500">
                           <li> 설비 검사 계획 수립 및 건전성 평가</li>
-                          <li> 위험도기반검사(RBI) 시스템 도입</li>
+                          <li> 위험도 기반 검사(RBI) 시스템 도입</li>
                           <li> 노후 설비 자산화 교체 공사</li>
-                          <li> 팀 내 안전보건환경 업무 담당</li>
+                          <li> 팀 내 안전보건 환경 업무 담당</li>
                         </ul>
                       </ul>
                     </div>

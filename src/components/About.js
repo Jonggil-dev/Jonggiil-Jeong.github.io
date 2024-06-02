@@ -22,7 +22,8 @@ function About() {
           <li className="font-bold">생년월일 : 1996. 10. 02</li>
           <li className="font-bold">주소 : 부산광역시 강서구</li>
           <li className="font-bold">이메일 : jonggil.jeong24@gmail.com</li>
-          <li className="font-bold">학력 : 부산대학교 (기계공학부)</li>
+          <li className="font-bold">학력 : 부산대학교 </li>
+          <li className="font-bold">전공 : 기계공학부</li>
         </ul>
       </div>
     </section>

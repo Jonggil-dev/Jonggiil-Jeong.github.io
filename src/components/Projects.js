@@ -13,13 +13,13 @@ const Projects = () => {
             title="Icecream"
             period="2024.04.08(월) ~ 2024.05.20(월)"
             position="백엔드 개발"
-            description="자녀들의 안전 보행을 통한 스쿨존 내 교통 사고 예방 어플리케이션"
+            description="자녀들의 안전 보행을 통한 스쿨존 내 교통사고 예방 애플리케이션"
             roles={[
               {
                 title: "Spring Security + JJWT를 활용한 인증/인가 관리 - 2 ",
                 description: [
-                  `Security 라이브러리의 UsernamePasswordAuthenticationFilter, UserDetailService, AuthenticationSuccessHandler 등 Authentication 관련 인터페이스 구현체를 커스텀 하였습니다. 이를 통해 인증/인가 과정은 Security의 FilterChain을 통해 처리하면서도 클라이언트에서 요구하는 응답/예외를 반환했습니다.`,
-                  `JwtAuthenticationFilter를 생성하고 FilterChain에 등록하여 JWT 토큰 기반 인증 시스템을 구축하고 보안을 강화했습니다.`,
+                  `Security 라이브러리의 UsernamePasswordAuthenticationFilter, UserDetailService, AuthenticationSuccessHandler 등 Authentication 관련 인터페이스 구현체를 커스텀 하였습니다. 이를 통해 인증/인가 과정은 Security의 FilterChain을 통해 처리하면서도 클라이언트에게 요구하는 응답/예외를 반환했습니다.`,
+                  `JwtAuthenticationFilter를 생성하고 FilterChain에 등록하여 Jwt 토큰 기반 인증 시스템을 구축하고 보안을 강화했습니다.`,
                   `유저 정보에 따른 로그인 방식을 다르게 처리하기 위해(Login Id 또는 Device Id) 3번의 분기를 나누어 인증 절차를 구현했습니다.`,
                   `보안을 강화하기 위해 Access Token과 Refresh Token의 Secret Key를 분리하고 유저 권한 정보에 따른 API 접근을 제한했습니다.`,
                 ],
@@ -28,7 +28,7 @@ const Projects = () => {
                 title: "유저 정보 관련 18개 API 엔드포인트 구현",
                 description: [
                   "회원가입, 로그인, 회원 정보 수정 등 유저 정보를 관리하기 위한 18개의 API 엔드포인트를 구현했습니다.",
-                  "프로젝트 내 API 개발 담당자로 3명의 프론트엔드 개발자의 에러를 혼자 응대하며 정확한 에러 핸들링의 중요성을 배웠습니다. 프로젝트 초기 에러 응답의 부정확성으로 원인을 추정하는 데 많은 시간을 낭비했습니다. 이후 에러 핸들링을 명확하게 처리함으로써 프론트엔드 개발자와의 소통을 개선하고, 디버깅 시간을 단축시켰습니다. 이로 인해 팀의 작업 효율성이 증가하였으며, 빠른 문제 해결이 가능해졌습니다.",
+                  "프로젝트 내 API 개발 담당자로 3명의 프론트엔드 개발자의 에러를 혼자 응대하며 정확한 에러 핸들링의 중요성을 배웠습니다. 프로젝트 초기 에러 응답의 부정확성으로 원인을 추정하는 데 많은 시간을 낭비했습니다. 이후 에러 핸들링을 명확하게 처리함으로써 프론트엔드 개발자와의 소통을 개선하고, 디버깅 시간을 단축했습니다. 이에 따라 팀의 작업 효율성이 증가하였으며, 빠른 문제 해결이 가능해졌습니다.",
                 ],
               },
               {
@@ -36,7 +36,7 @@ const Projects = () => {
                   "RabbitMQ, PostGIS를 활용한 실시간 사용자 위치 파악 (공간 인덱싱)",
                 description: [
                   `RabbitMQ로 수집한 사용자의 GPS 데이터와 PostGIS의 공간 인덱싱 기술을 통해 실시간으로 사용자가 특정 횡단보도에 위치하는지 파악했습니다.`,
-                  `사용자가 특정 횡단보도에 위치할 경우, Redis에 알림 발송 대상자로 기록하여 과속 차량 발생 시 위험 알림을 제공 받을 수 있도록 구현했습니다.`,
+                  `사용자가 특정 횡단보도에 위치할 경우, Redis에 알림 발송 대상자로 기록하여 과속 차량 발생 시 위험 알림을 제공받을 수 있도록 구현했습니다.`,
                 ],
               },
             ]}
@@ -60,7 +60,7 @@ const Projects = () => {
             title="심청이"
             period="2024.02.19(월) ~ 2024.04.05(금)"
             position="인프라, 백엔드 개발"
-            description="청년 정책 정보를 쉽고 간편하게 제공하는 모바일 어플리케이션"
+            description="청년 정책 정보를 쉽고 간편하게 제공하는 모바일 애플리케이션"
             roles={[
               {
                 title: "CI/CD Pipeline 구축을 통한 자동화 배포",
@@ -69,7 +69,7 @@ const Projects = () => {
                   `Nginx를 리버스 프록시 서버로 설정하여 HTTPS 프로토콜을 통한 보안 통신을 구축했습니다.`,
                   `Docker 컨테이너를 사용해 애플리케이션의 실행 환경을 일관되게 유지하면서 빠르고 안정적인 배포를 실현했습니다.`,
                   `Docker 이미지의 경우 멀티 스테이지 빌드를 사용해 불필요한 빌드 도구와 툴킷을 제거하여 리소스를 최적화했습니다.`,
-                  `Flutter의 경우 애플리케이션 빌드부터 APK 파일의 EC2 서버 업로드 까지를 파이프라인으로 구성했습니다. 또한, Nginx를 활용해 사용자가 특정 URL을 통해 최신 버전의 APK 파일을 직접 다운로드할 수 있도록 함으로써 사용자들이 수동으로 파일을 공유 받는 번거로움을 줄였습니다." `,
+                  `Flutter의 경우 애플리케이션 빌드부터 APK 파일의 EC2 서버 업로드까지를 파이프라인으로 구성했습니다. 또한, Nginx를 활용해 사용자가 특정 URL을 통해 최신 버전의 APK 파일을 직접 다운로드할 수 있도록 함으로써 사용자들이 수동으로 파일을 공유 받는 번거로움을 줄였습니다." `,
                   `프로젝트 내 민감 데이터의 경우 Jenkins의 Credential로 관리하고 빌드 직전에 소스 코드에 주입하여 개발 과정의 보안을 강화했습니다.`,
                 ],
               },
@@ -77,7 +77,7 @@ const Projects = () => {
                 title: "Spring Security + JJWT를 활용한 인증/인가 관리 - 1",
                 description: [
                   `Spring Security 라이브러리의 UserDetailService 구현체를 커스텀하였습니다. 이를 통해, 연결된 DB 내 Login Id를 기준으로 UserDetail 객체를 만들고 인증을 진행할 수 있도록 했습니다.`,
-                  `JwtAuthenticationFilter를 생성하고 FilterChain에 등록하여 JWT 토큰 기반 인증 시스템을 구축하고 보안을 강화했습니다.`,
+                  `JwtAuthenticationFilter를 생성하고 FilterChain에 등록하여 Jwt 토큰 기반 인증 시스템을 구축하고 보안을 강화했습니다.`,
                 ],
               },
               {
@@ -106,7 +106,7 @@ const Projects = () => {
             title="눈 깜빡할 새"
             period="2024.01.08(월) ~ 2024.02.16(금)"
             position="프론트엔드 개발"
-            description="WebRTC기술을 활용한 온라인 눈(eye) 싸움 게임 어플리케이션 (Progressive Web Apps)"
+            description="WebRTC기술을 활용한 온라인 눈(eye) 싸움 게임 애플리케이션 (Progressive Web Apps)"
             roles={[
               {
                 title: "UI/UX 설계",
@@ -129,7 +129,7 @@ const Projects = () => {
                   "Axios Interceptor를 활용한 인증/인가 요청(Jwt 토큰 관리)",
                 description: [
                   "Axios Interceptor를 통해 HTTP 요청에 자동으로 엑세스 토큰을 주입하는 로직을 구현했습니다.",
-                  "엑세스 토큰이 만료될 경우, 응답을 가로채어 토큰을 갱신했습니다. 또한, 그 즉시 원본 요청의 config에 토큰을 추가하여 클라이언트에게 응답이 도달하기 전에 원본 요청을 재처리했습니다. 이 과정을 통해 사용자가 토큰 만료로 인한 서비스 중단 없이 지속적으로 부드러운 경험을 누릴 수 있도록 구성했습니다.",
+                  "엑세스 토큰이 만료될 경우, 응답을 가로채어 토큰을 갱신했습니다. 또한, 그 즉시 원본 요청의 config에 토큰을 추가하여 클라이언트에게 응답이 도달하기 전에 원본 요청을 재처리했습니다. 이 과정을 통해 사용자가 토큰 만료로 인한 서비스 중단 없이 지속해서 부드러운 경험을 누릴 수 있도록 구성했습니다.",
                 ],
               },
               {
